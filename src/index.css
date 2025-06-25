@@ -1,0 +1,77 @@
+.merriweather {
+  font-family: "Merriweather", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+:root {
+  line-height: 1.5;
+  font-weight: 400;
+  font-family: 'Merriweather';
+}
+
+
+body{
+  margin: 0px;
+}
+
+.sidebar{
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+}
+
+.sidebar p{
+  text-align: center;
+  font-size: 40px;
+  margin: 0%;
+}
+
+.sidebar img{
+  max-height: 250px;
+  max-width: 250px;
+}
+
+.content{
+  width: auto;
+  margin-left: 300px;
+}
+
+.sidebarContent{
+  display: flex;
+}
+
+ul{
+  list-style: none;
+  padding: 0px;
+}
+
+h1{
+  margin-left: 2%;
+}
+
+.gallerydisplay{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.gallerydisplay img{
+  max-width: 500px;
+  max-height: 500px;
+  margin: 2%
+}
+
+.aboutmeContent{
+  display: flex;
+}
+
+.aboutmeContent img{
+  max-width: 300px;
+  max-height: 300px;
+}
