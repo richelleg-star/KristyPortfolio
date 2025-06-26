@@ -1,6 +1,6 @@
 import React from "react";
 
-const images = import.meta.glob('/src/Artportfolio/*.{png,jpg,jpeg,svg,PNG}', {eager: true})
+const images = import.meta.glob('/src/Artportfolio/Scapegoats/*.{png,jpg,jpeg,svg,PNG}', {eager: true})
 
 export function Scapegoat(){
     const imageList = Object.values(images).map((image, index) => (

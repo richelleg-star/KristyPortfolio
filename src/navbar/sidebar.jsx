@@ -12,15 +12,16 @@ export default function Sidebar(){
             <div className="links">
                 <ul>
                     <li><Link to="*">Visual Development</Link></li>
-                    <li>BG Design</li>
-                    <li>Prop Design</li>
-                    <li>Character Design</li>
+                    <li><Link to='bg-design'>BG Design</Link></li>
+                    <li><Link to='prop-design'>Prop Design</Link></li>
+                    <li><Link to='chara-design'>Character Design</Link></li>
                 </ul>
             </div>
             <h2>By Project</h2>
             <div className="link">
                 <ul>
                     <li><Link to='scapegoats'>Scapegoats</Link></li>
+                    <li><Link to='penguin-dreams'>Penguin Dreams</Link></li>
                 </ul>
             </div>
         </div>
