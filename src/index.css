@@ -7,6 +7,13 @@
     "wdth" 100;
 }
 
+.horizontallink{
+  display: none;
+}
+.horizontalprojectlink{
+  display: none;
+}
+
 :root {
   line-height: 1.5;
   font-weight: 400;
@@ -52,18 +59,16 @@ ul{
   padding: 0px;
 }
 
-h1{
-  margin-left: 2%;
-}
 
 .gallerydisplay{
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .gallerydisplay img{
-  max-width: 500px;
-  max-height: 500px;
+  max-width: 400px;
+  max-height: 250px;
   margin: 2%
 }
 
@@ -98,6 +103,78 @@ a:focus{
   color: pink;
 }
 
+.ImageAndName h1{
+  text-align: center;
+}
+
 .mediaicon{
   margin-left: 5%;
+}
+
+@media(max-width:768px){
+  .sidebar{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: unset;
+    flex-shrink: inherit;
+    flex-wrap: wrap;
+  }
+  .sidebar img{
+    max-width: 150px;
+    max-height: 150px;
+  }
+
+  .sidebar p{
+  text-align: left;
+  font-size: 40px;
+  margin: 0%;
+  }
+  .sidebar a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  color: black;
+  }
+  .sidebarContent{
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  }
+  .content{
+  margin-left: 0px;
+  }
+
+  .links{
+    display: flex;
+  }
+  .ImageAndName h1{
+    margin: 0px;
+  }
+  .ImageAndName{
+    margin-right: 80vw;
+  }
+  .socialicon{
+  display: inline-flex;
+  justify-content: left;
+}
+.mediaicon{
+  margin-left: 0%;
+}
+.links{
+  display: none;
+}
+.link{
+  display: none;
+}
+.horizontallink{
+  display: flex;
+}
+.horizontalprojectlink{
+  display: flex;
+}
+
+.content h1{
+  text-align: center;
+}
 }
